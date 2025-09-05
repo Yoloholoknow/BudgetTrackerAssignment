@@ -23,7 +23,6 @@ struct ContentView: View {
                     
                     // TODO: Show remaining budget here
                     // Note: Budget can change color in certain cases
-                    Text(viewModel.remainingBudget)
                     
                 }
                 .padding()
@@ -88,5 +87,4 @@ struct ContentView: View {
 
 #Preview {
     ContentView()
-        .environment(viewModel(.init(name: "Hello World", amount: 10)))
 }
